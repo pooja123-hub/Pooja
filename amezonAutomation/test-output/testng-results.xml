@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-25T07:21:41 PDT" name="Demo" finished-at="2022-09-25T07:22:39 PDT" duration-ms="57178">
+    <groups>
+    </groups>
+    <test started-at="2022-09-25T07:21:41 PDT" name="ChromeTest" finished-at="2022-09-25T07:22:14 PDT" duration-ms="32688">
+      <class name="test.VerifyAmazonHomePage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:21:42 PDT" name="openBrowser" finished-at="2022-09-25T07:21:49 PDT" duration-ms="7007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:21:49 PDT" name="openBroswer" finished-at="2022-09-25T07:21:49 PDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:21:49 PDT" name="openApplication" finished-at="2022-09-25T07:21:53 PDT" duration-ms="4721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="SignUpPage()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:21:53 PDT" name="SignUpPage" finished-at="2022-09-25T07:21:55 PDT" duration-ms="1206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPage -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:21:55 PDT" name="closeApplication" finished-at="2022-09-25T07:21:55 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:21:55 PDT" name="openApplication" finished-at="2022-09-25T07:22:00 PDT" duration-ms="5772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="addToCart()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:22:00 PDT" name="addToCart" finished-at="2022-09-25T07:22:06 PDT" duration-ms="5831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:22:06 PDT" name="closeApplication" finished-at="2022-09-25T07:22:06 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:22:06 PDT" name="openApplication" finished-at="2022-09-25T07:22:11 PDT" duration-ms="4709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyLanguage()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:22:11 PDT" name="verifyLanguage" finished-at="2022-09-25T07:22:13 PDT" duration-ms="2591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLanguage -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:22:13 PDT" name="closeApplication" finished-at="2022-09-25T07:22:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:22:13 PDT" name="clearBrowser" finished-at="2022-09-25T07:22:13 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.VerifyAmazonHomePage@4a94ee4]" started-at="2022-09-25T07:22:13 PDT" name="closeBrowser" finished-at="2022-09-25T07:22:14 PDT" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.VerifyAmazonHomePage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-09-25T07:22:14 PDT" name="FirefoxTest" finished-at="2022-09-25T07:22:39 PDT" duration-ms="24396">
+      <class name="test.VerifyAmazonHomePage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:14 PDT" name="openBrowser" finished-at="2022-09-25T07:22:23 PDT" duration-ms="8279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openBroswer()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:23 PDT" name="openBroswer" finished-at="2022-09-25T07:22:23 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroswer -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:23 PDT" name="openApplication" finished-at="2022-09-25T07:22:28 PDT" duration-ms="5861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="SignUpPage()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:28 PDT" name="SignUpPage" finished-at="2022-09-25T07:22:28 PDT" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpPage -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:28 PDT" name="closeApplication" finished-at="2022-09-25T07:22:28 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:28 PDT" name="openApplication" finished-at="2022-09-25T07:22:30 PDT" duration-ms="1847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="addToCart()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:30 PDT" name="addToCart" finished-at="2022-09-25T07:22:32 PDT" duration-ms="2168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:32 PDT" name="closeApplication" finished-at="2022-09-25T07:22:32 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:32 PDT" name="openApplication" finished-at="2022-09-25T07:22:34 PDT" duration-ms="1142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="verifyLanguage()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:34 PDT" name="verifyLanguage" finished-at="2022-09-25T07:22:36 PDT" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLanguage -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:36 PDT" name="closeApplication" finished-at="2022-09-25T07:22:36 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="clearBrowser()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:36 PDT" name="clearBrowser" finished-at="2022-09-25T07:22:36 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.VerifyAmazonHomePage@6aeb35e6]" started-at="2022-09-25T07:22:36 PDT" name="closeBrowser" finished-at="2022-09-25T07:22:39 PDT" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.VerifyAmazonHomePage -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Demo -->
+</testng-results>
